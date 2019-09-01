@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../images/clock-pattern.png");
+}
+
+.main{
+    background: #ccc;
+    width: 400px;
+    margin: 250px auto;
+    height: 175px;
+    position: relative;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.badge{
+    background: tomato;
+    color: #fff;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 95px;
+    position: absolute;
+    top: -10px;
+    left: 20px;
+}
+
+.clock{
+    background-color: #eee;
+    font-size: 45px;
+    font-family: 'Orbitron', sans-serif !important;
+    height: 100%;
+    padding-top: 25px;
+    border-radius: 4px;
+}
